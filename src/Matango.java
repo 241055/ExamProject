@@ -1,7 +1,6 @@
 public class Matango extends Monster {
-    public Matango(char suffix, int hp) {
-        super(suffix, hp);
-        super.setName("お化けキノコ");
+    public Matango(String name,char suffix, int hp) {
+        super(name,suffix, hp);
     }
     public void attack(Creature target) {
         System.out.println(this.getName() + "は体当たり攻撃!" + target.getName() + "に6のダメージを与えた!");

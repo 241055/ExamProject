@@ -9,7 +9,7 @@ public abstract class Character implements Creature {
             throw new IllegalArgumentException("初期設定に誤りがあるため、キャラクターを作成できませんでした");
         }
     }
-    public void setHp(int hp) {// 妥当性チェック
+    public void setHp(int hp) {
         this.hp = hp;
     }
     public final boolean isAlive(){
